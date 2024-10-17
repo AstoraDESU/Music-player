@@ -67,7 +67,7 @@ def main():
         elif choice == "view":
             print(file_name)
         elif choice == "skip":
-            print(f"Skip lagu {file_name}")
+            print(f"Skip lagu {playlist}")
             skip()
         elif choice == "exit":
             print("Keluar dari program")
